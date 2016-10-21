@@ -1,0 +1,90 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.button {
+    position: sticky;
+    user-select: none;
+}
+
+input.button-image {
+    width: 300px;
+    height: 50px;
+    /* As Linhas abaixo estão implementadas para centralizar as imagens */
+    display: block;
+}
+.windowControls {
+    width:auto;
+    height:auto;
+    margin-left:96%;
+}
+
+/*input.button-image:active {
+    src: "imgs/modal-button-pressed.png";
+}*/
+
+.button-text {
+    text-align: center;
+    pointer-events: none; /*Define que o texto não oferece marcação (o evento de ponteiro que o torna de Seta para Colchetes)*/
+    /*TODO: Linhas abaixo estão com posições referentes ao modelo de teste. Mudar quando for preciso*/
+    position: relative;
+    left: 210px;
+    top: -35px;
+    color: #fff;
+}
+
+.top-layer {
+    z-index: 1;
+}
+
+.working-layer {
+    z-index: 1;
+}
+
+/*Essa é a classe para todas as janelas dentro da área de trabalho*/
+.workspace-item {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.workspace {
+    display: block;
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    float: right;
+}
+
+.windowControls {
+    margin-top: 0;
+}
+
+.sidebar {
+    height: 100%;
+    width:15%;
+    background-color: #C08080;
+    float: left;
+}
+
+#header {
+    background-color: #C08080;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    border: 1px solid white;
+}
+
+.main {
+    position: relative;
+}
+
+body {
+    /*background-image: url('../imgs/flame-gif.gif');*/
+    background: url('../imgs/main-background-test.png');
+    background-size: 100% 100%;
+    z-index: 0;
+}

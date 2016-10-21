@@ -1,0 +1,36 @@
+{
+  "name": "campaign-compendium",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "\"D:/nodewebkit/nw.exe\" ."
+  },
+  "author": "Dark Dice Games",
+  "license": "ISC",
+  "main": "source/index-v3.html",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "common-errors": "^0.5.7",
+    "config": "^1.21.0",
+    "glob": "^7.1.1",
+    "jQuery": "^1.7.4",
+    "joi": "^8.4.2",
+    "jquery": "^3.0.0",
+    "jquery-ui": "^1.10.5",
+    "lodash": "^4.13.1",
+    "mongodb": "^2.2.10",
+    "mongoose": "^4.6.4",
+    "sequelize": "^3.24.4",
+    "sqlite3": "^3.1.6"
+  },
+  "window": {
+        "fullscreen": true,
+        "width": 1024,
+        "height": 768,
+        "min_width": 800,
+        "min_height": 600,
+        "frame": true
+    },
+    "nodejs": true
+}

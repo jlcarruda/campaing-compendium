@@ -1,0 +1,40 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.button {
+    position: sticky;
+}
+
+span {
+    pointer-events: none; /*Define que o texto não oferece marcação (o evento de ponteiro que o torna de Seta para Colchetes)*/
+}
+
+input.button-image {
+    width: 300px;
+    height: 50px;
+    /* As Linhas abaixo estão implementadas para centralizar as imagens */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input.button-image:active {
+    src: "imgs/modal-button-pressed.png";
+}
+
+.button-text {
+    text-align: center;
+    /*TODO: Linhas abaixo estão com posições referentes ao modelo de teste. Mudar quando for preciso*/
+    position: relative;
+    left: 210px;
+    top: -35px;
+    color: #fff;
+}
+
+body {
+    background-image: url("../imgs/main-background-test.png");
+    background-size: 100% 100%;
+}

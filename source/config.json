@@ -1,0 +1,7 @@
+{
+    "lang": "pt-br",
+    "database": {
+        "version": "1",
+        "sqliteUri": "sqlite://campaing-compendium.sqlite"
+    }
+}
