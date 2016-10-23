@@ -95,7 +95,12 @@ module.exports = (function () {
     function createSqliteDAO(){
         let Sequelize = require('sequelize')
         console.log('Creating DB ... ')
-        let db = new Sequelize('sqlite://campaing-compendium.sqlite', {dialect: 'sqlite'})
+        try {
+
+            let db = new Sequelize('sqlite://campaing-compendium.sqlite', {dialect: 'sqlite'})
+        } catch(err) {
+            alert(err.message)
+        }
         loadSqliteModels(sequelize, db).then(function () {
             //TODO: Se quiser adicionar algo depois da promise, adicionar aqui
             console.log('DB created!');

@@ -25,12 +25,13 @@
     "sqlite3": "^3.1.6"
   },
   "window": {
-        "fullscreen": true,
-        "width": 1024,
-        "height": 768,
-        "min_width": 800,
-        "min_height": 600,
-        "frame": true
-    },
-    "nodejs": true
+    "fullscreen": false,
+    "width": 1024,
+    "height": 768,
+    "min_width": 800,
+    "min_height": 600,
+    "frame": true,
+    "toolbar": true
+  },
+  "nodejs": true
 }
