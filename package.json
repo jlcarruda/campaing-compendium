@@ -15,13 +15,13 @@
     "config": "^1.21.0",
     "glob": "^7.1.1",
     "jQuery": "^1.7.4",
-    "joi": "^8.4.2",
+    "joi": "^13.0.0",
     "jquery": "^3.0.0",
     "jquery-ui": "^1.10.5",
     "lodash": "^4.13.1",
     "mongodb": "^2.2.10",
     "mongoose": "^4.6.4",
-    "sequelize": "^3.24.4",
+    "sequelize": "^4.0.0",
     "sqlite3": "^3.1.6"
   },
   "window": {
