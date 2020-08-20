@@ -10,7 +10,7 @@
   "license": "ISC",
   "main": "source/index-v3.html",
   "dependencies": {
-    "bcrypt": "^0.8.7",
+    "bcrypt": "^5.0.0",
     "common-errors": "^0.5.7",
     "config": "^1.21.0",
     "glob": "^7.1.1",
