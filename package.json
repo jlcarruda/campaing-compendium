@@ -20,9 +20,9 @@
     "jquery-ui": "^1.10.5",
     "lodash": "^4.13.1",
     "mongodb": "^2.2.10",
-    "mongoose": "^4.6.4",
+    "mongoose": "^6.0.4",
     "sequelize": "^3.24.4",
-    "sqlite3": "^3.1.6"
+    "sqlite3": "^4.0.0"
   },
   "window": {
     "fullscreen": false,
